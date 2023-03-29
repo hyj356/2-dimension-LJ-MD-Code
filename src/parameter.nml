@@ -1,0 +1,10 @@
+&InputVar
+deltaT      =      0.002d0        ! 时间步长
+density     =      0.8d0          ! 原子分布的密度
+nx          =      50             ! x方向上晶格个数
+ny          =      50             ! y方向上晶格个数
+stepAvg     =      100            ! 每隔多少步平均一次物理量
+stepEquil   =      0              ! 目前仿真中暂时没用到的物理量
+stepLimit   =      5000           ! 一共循环多少步
+temperature =      1.d0           ! 模拟在什么温度下进行
+/
